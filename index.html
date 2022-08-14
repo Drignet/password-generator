@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <meta name="description" content="This is an example of a meta description.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+		<div class="container">
+		  <header>
+		    <h1>Generate Your <span class="pd">Password</span></h1>
+		  </header>
+		  <div class="form">
+		    <form>
+		    <textarea id="show-password"></textarea><br>
+		    <input type="text" id="first-name" placeholder="First Name">
+        <input type="text" id="last-name" placeholder="Last Name"><br>
+		    <input type="range" min="1" max="100" value="8" class="slider" id="password-length" placeholder="Length Of Password">
+		    <p>Password Length:  <span id="show"></span></p>
+		  </div><br>
+		  <button type="button" onclick="passwordFunc()">Generate</button>
+		  <button id="btn">Copy</button>
+		  <button type="reset">Reset</button>
+		  </form>
+		</div>
+		<script src="script.js"></script>
+  </body>
+</html>
